@@ -1,0 +1,43 @@
+public class SetDemo 
+{
+    public static void setOrder()
+    {
+        List<String>strList= new List<String>{'A','B'};
+            
+        Set<String> strSet= new Set<String>();
+        Set<String> strSet2 = new Set<String>();
+        
+        Boolean b;
+        //strSet.add('Online');
+        //strSet.add('Offline');
+        
+        strSet.add('A');
+        strSet.add('B');
+        
+        //strSet.addAll(strList);
+        //b= strSet.containsAll(strList);
+        //b=strSet.equals(strSet2);
+        
+        //System.debug('b=>'+b);
+        
+        //System.debug(strSet.contains('A'));
+        
+        //strSet2 = strSet.clone();
+        //System.debug('strSet2=>'+strSet2);
+        
+        //if(strSet.isEmpty())
+        //{
+          //  System.debug('Empty');
+        //}
+        //else
+        //{
+          //  System.debug('Not Empty');
+        //}
+        
+        System.debug('strSet=>'+strSet);
+        strSet.remove('A');
+        
+        System.debug('strSet=>'+strSet);
+        
+    }
+}
