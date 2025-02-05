@@ -1,0 +1,36 @@
+public class ListDemo {
+    public void listMethod()
+    {
+        List<String> strList=new List<String>();
+        List<String> strList2=new list<String>();
+        //Set<String> strSet= new Set<String>();
+        
+        sObject sobj= [SELECT Id,Name from Account Limit 1];
+        Boolean res;
+        strList.add ('India');
+        strList.add('USA');
+        strList.add('Paris');
+        strList.add(2,'UK');
+        strList.sort();
+        System.debug(strList);
+        
+        //System.debug('Object Type=>' + sobj.getSObjectType());
+        
+        //res= strList.equals(strList2);
+        //strList2= strList.clone();
+        
+        //strList2.addAll(strList);
+        //strList2.add('America');
+        //strSet.add('Japan');
+        //strList2.addAll(strSet);
+        
+        //System.debug('strList=>'+strList.get(3));
+        //System.debug('strList2=>'+strList2);
+        
+        //strList2.clear();
+        //System.debug('strList2=>'+strList2);  
+        //System.debug('Result=>'+res);
+      
+    }
+
+}
